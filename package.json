@@ -18,7 +18,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write ./src",
+    "lint": "eslint src --ext ts --ext tsx --ext js",
+    "fix": "npm run format && npm run lint",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +46,7 @@
     "@types/jest": "^27.0.3",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.0",
     "prettier": "^2.5.0"
   }
 }
