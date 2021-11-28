@@ -1,0 +1,15 @@
+name: jest-run-pull-request
+
+on: pull-request
+
+jobs:
+  jest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: Jest run
+        run: npm run test
