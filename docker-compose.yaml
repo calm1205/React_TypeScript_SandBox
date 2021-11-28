@@ -1,0 +1,10 @@
+version: "3"
+services:
+  node_sand_box:
+    image: node:16
+    container_name: node_sand_box
+    ports:
+      - 8080:3000
+    volumes:
+      - ./:/usr/src/app
+    command: sh -c "cd usr/src/app && yarn start"
