@@ -1,4 +1,4 @@
-# Run application
+# Run
 
 ```bash
 docker compose up
@@ -7,5 +7,5 @@ docker compose up
 # Console
 
 ```bash
-docker compose exec node_sand_box bash
+docker compose exec node bash
 ```
