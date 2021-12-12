@@ -1,4 +1,4 @@
-type User = {
+export type User = {
   id: number;
   attribute: {
     firstName: string;
