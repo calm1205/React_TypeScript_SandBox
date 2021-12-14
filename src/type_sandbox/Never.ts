@@ -1,4 +1,4 @@
-const echo = (word: string): void => {
+export const echo = (word: string): void => {
   console.log(word);
 };
 

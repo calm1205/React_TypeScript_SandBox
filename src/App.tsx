@@ -1,8 +1,12 @@
+import { ThemeProvider } from 'src/Theme';
+import { Radio } from 'src/components/atoms';
+
 const App = () => {
   return (
-    <div className="App">
+    <ThemeProvider>
       <p>Learn React</p>
-    </div>
+      <Radio isActive />
+    </ThemeProvider>
   );
 };
 

@@ -1,7 +1,7 @@
 // ===== Any Type =====
 // どんな型でも再定義可能。どんな型にでも再代入可能
 
-let anything: any;
+export let anything: any;
 anything = 'hello world';
 anything = 999;
 anything = true;

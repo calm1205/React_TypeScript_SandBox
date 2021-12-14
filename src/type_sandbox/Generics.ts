@@ -1,5 +1,5 @@
 // ===== Generics =====
-function copy<T>(word: T): T {
+export function copy<T>(word: T): T {
   return word;
 }
 
