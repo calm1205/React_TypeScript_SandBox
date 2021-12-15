@@ -1,1 +1,1 @@
-export { Radio } from 'src/components/atoms/Radio/Radio';
+export { Button } from 'src/components/atoms/Button/Button';
